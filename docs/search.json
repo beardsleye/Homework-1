@@ -1,0 +1,9 @@
+[
+  {
+    "objectID": "DataScience.html",
+    "href": "DataScience.html",
+    "title": "Answers:",
+    "section": "",
+    "text": "Answers:\n\nBeing a data scientist is about working with, managing, and interpreting data to help answer a research question\nBoth data scientists and statisticians work with data. Data scientists specialize in the organization, analysis, and visualization of the data. Statisticians specialize in relationships with in, outcomes, and inferences about the data.\nI feel as if my education up to this point has been more focused towards statistics. However, moving forward I would like to more about data science to prepare myself for a career.\n\n\n\nSepal Length Density\nCreate kernel density for Sepal Length from Iris data set.\n\ny&lt;-density(iris$Sepal.Length)\n\nIdentify the class, type, and structure of object y.\n\nclass(y)\n\n[1] \"density\"\n\ntypeof(y)\n\n[1] \"list\"\n\nstr(y)\n\nList of 7\n $ x        : num [1:512] 3.48 3.49 3.5 3.51 3.52 ...\n $ y        : num [1:512] 0.000232 0.000262 0.000296 0.000333 0.000373 ...\n $ bw       : num 0.274\n $ n        : int 150\n $ call     : language density.default(x = iris$Sepal.Length)\n $ data.name: chr \"iris$Sepal.Length\"\n $ has.na   : logi FALSE\n - attr(*, \"class\")= chr \"density\"\n\n\nPlot the density of Sepal Length from the Iris Data set."
+  }
+]
