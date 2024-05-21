@@ -1,0 +1,26 @@
+# Answers:
+
+1. Being a data scientist is about working with, managing, and interpreting data to help answer a research question 
+
+2. Both data scientists and statisticians work with data. Data scientists specialize in the organization, analysis, and visualization of the data. Statisticians specialize in relationships with in, outcomes, and inferences about the data. 
+
+3. I feel as if my education up to this point has been more focused towards statistics. However, moving forward I would like to more about data science to prepare myself for a career.
+
+# Sepal Length Density
+Create kernel density for Sepal Length from Iris data set.
+```{r Density}
+y<-density(iris$Sepal.Length)
+```
+
+Identify the class, type, and structure of object y.
+```{r Characteristics}
+class(y)
+typeof(y)
+str(y)
+```
+
+Plot the density of Sepal Length from the Iris Data set.
+```{r Plot, echo=FALSE}
+plot(y)
+```
+
